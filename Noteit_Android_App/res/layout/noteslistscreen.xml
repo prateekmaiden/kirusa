@@ -1,0 +1,102 @@
+
+    
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTES LIST"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical|center_horizontal" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    
+    <TextView android:layout_width="fill_parent"
+	android:layout_height="4dip"
+	android:background="#FF00FF00" />
+    
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+      
+
+            <TextView
+              android:id="@+id/tv_note_id"
+              android:layout_width="60sp"
+              android:layout_height="40dp"
+              android:text="   ID"
+              android:textColor="#FFFF00"
+              android:textSize="16dp"
+              android:textStyle="bold" />
+          
+          <TextView
+    android:id="@+id/tv"
+    android:layout_width="4dip"
+    android:layout_height="fill_parent"
+    android:textColor="#FF00FF00" />
+          
+          <TextView
+              android:id="@+id/tv_note_subject"
+              android:layout_width="180sp"
+              android:layout_height="40dp"
+              android:text="      Subject"
+              android:textColor="#FFFF00"
+              android:textSize="16dp"
+              android:textStyle="bold" />
+          
+          <TextView
+    android:id="@+id/tv"
+    android:layout_width="4dip"
+    android:layout_height="fill_parent"
+    android:textColor="#FF00FF00" />
+          
+          <TextView
+              android:id="@+id/tv_note_details"
+              android:layout_width="120sp"
+              android:layout_height="40sp"
+              android:text="      Details"
+              android:textColor="#FFFF00"
+              android:textSize="16dp"
+              android:textStyle="bold" />
+                     
+         
+    
+         
+           
+
+        
+         
+        
+      </LinearLayout>
+
+      <ListView
+          android:id="@+id/listView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         >
+      </ListView>
+    
+    </LinearLayout>
+ 

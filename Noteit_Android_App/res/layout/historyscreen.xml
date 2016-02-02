@@ -1,0 +1,63 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your option"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:text=""/>
+
+  
+
+     <Button
+         android:id="@+id/btn_notes"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="NOTES"
+         android:textColor="#000000"
+         android:textStyle="bold"
+         android:layout_gravity="center" />
+
+    
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+         android:id="@+id/btn_reminder"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="REMINDER"
+         android:textColor="#000000"
+         android:textStyle="bold"
+         android:layout_gravity="center" />
+    
+    
+  
+        
+
+</LinearLayout>
+
+</ScrollView>
